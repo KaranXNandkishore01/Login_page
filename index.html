@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instagram Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-background"></div>
+
+  <div class="login-container">
+    <h1 class="logo">BrilcamX</h1>
+    <form id="loginForm">
+      <input type="text" placeholder="Phone number, username, or email" required />
+      <input type="password" placeholder="Password" id="password" required />
+      <label class="show-password">
+        <input type="checkbox" onclick="togglePassword()"> Show Password
+      </label>
+      <button type="submit">Log In</button>
+    </form>
+    <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Grid Background */
+  .grid-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(0,0,255,0.2) 1px, transparent 1px),
+                      linear-gradient(-45deg, rgba(255,105,180,0.2) 1px, transparent 1px);
+    background-size: 40px 40px;
+    z-index: -1;
+  }
+  
+  /* Login Container */
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 40px;
+    background: rgb(247, 244, 244);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    font-family: 'Billabong', cursive;
+    font-size: 2.5rem;
+    color: #405de6; /* Instagram Blue */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Fields */
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #000000;
+    border-radius: 6px;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3897f0;
+    color: rgb(250, 250, 250);
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2d80d3;
+  }
+  
+  /* Show Password */
+  .show-password {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Signup Link */
+  .signup {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  .signup a {
+    color: #e1306c; /* Instagram Pink */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
